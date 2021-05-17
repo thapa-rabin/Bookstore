@@ -1,0 +1,117 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 17, 2021, 3:48:59 PM
+    Author     : thapa.rbn24
+*/
+
+/* styling for all*/
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* helps footer stick to the bottom*/
+#wrapper {
+  min-height: 100%;
+  position: relative;
+}
+
+html, body {
+    background-image: url(Images/background.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    height: 100%;
+}
+
+/* all  content inside article*/
+article {
+    font-size: 150%;
+}
+
+/* Menubar */
+.menu-bar {
+    background: #2C662F;
+    text-align: center;
+}
+
+/* logo */
+.menu-bar img {
+  float: left;
+  width: 200px;
+  height: 100px;
+
+}
+
+.menu-bar ul {
+    display: inline-flex;
+    list-style: none;
+    height: 100px;
+}
+
+/*option boxes*/
+.menu-bar ul li {
+    width: 120px;
+    margin: 15px;
+    padding: 20px; 
+}
+
+/* Menu options */
+.menu-bar ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/* hovering effect*/
+.active, .menu-bar ul li:hover
+{
+    background: #f28525;
+    border-radius: 2px;
+}
+
+/* Footer */
+footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+/* footer class */
+.footer {
+    background: #253529;
+    height: 200px;
+}
+
+/* footer content */
+.footer .footer-content {
+    border: 1px solid #f28525;
+    display: flex;
+    color: #ffffff;
+}
+
+/* diving the footer content into sections */
+.footer .footer-content .footer-section {
+    flex: 1;
+    border: 1px solid #f28525;
+    padding: 20px;
+}
+
+/* footer bottom*/
+.footer .footer-bottom {
+    background: #253600;
+    color: #ffffff;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding-top: 20px;
+}
